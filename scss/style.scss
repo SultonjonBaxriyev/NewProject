@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    * {
+        text-align: center;
+    }
+}
+#one {
+    height: 850px;
+    background: url(../Kerakli/slider/1.webp);
+    .m {
+        margin-left: 35%;
+    }
+    #two {
+        h1 {
+            margin-top: 50%;
+            color: white;
+        }
+        p {
+            color: white;
+        }
+        .btn1 {
+            background: red;
+            color: white;
+            border: none;
+        }
+    }
+}
+#three {
+    margin-top: 20px;
+    background: rgba(238, 130, 238, 0.273);
+}
+#five {
+    text-align: center;
+    background: rgba(238, 130, 238, 0.273);
+    h1 {
+        margin: 20px 0;
+    }
+}
+#six {
+    text-align: center;
+    button {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: none;
+        padding: 5px 10px;
+    }
+    .br {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 400px;
+        margin: 20px 20px;
+    }
+    .br1 {
+        background: red;
+        color: white;
+    }
+    .btn1 {
+        background: transparent;
+    }
+}
+#seven {
+    text-align: center;
+    .border {
+        border: 1px solid black;
+        width: 300px;
+        margin: 15px;
+    }
+}
+#eight {
+    text-align: center;
+    .disp {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        form {
+            display: block;
+        }
+    }
+    .mt {
+        margin-top: 20%;
+        padding: 0 450px 0 0;
+    }
+    .mt1 {
+        padding: 0 450px 50px 0;
+    }
+    .mt2 {
+        padding: 0 450px 0 0;
+    }
+}
+#nine {
+    background: red;
+    color: white;
+    text-align: center;
+    i {
+        font-size: 32px;
+    }
+    .ul {
+        margin-left: 39%;
+        margin-top: 25px;
+        ul {
+            display: flex;
+            list-style: none;
+            a {
+                color: white;
+                margin-left: 50%;
+                text-align: center;
+                margin-right: 20px;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  * {
+    text-align: center;
+  }
+}
+#one {
+  height: 850px;
+  background: url(../Kerakli/slider/1.webp);
+}
+#one .m {
+  margin-left: 35%;
+}
+#one #two h1 {
+  margin-top: 50%;
+  color: white;
+}
+#one #two p {
+  color: white;
+}
+#one #two .btn1 {
+  background: red;
+  color: white;
+  border: none;
+}
+
+#three {
+  margin-top: 20px;
+  background: rgba(238, 130, 238, 0.273);
+}
+
+#five {
+  text-align: center;
+  background: rgba(238, 130, 238, 0.273);
+}
+#five h1 {
+  margin: 20px 0;
+}
+
+#six {
+  text-align: center;
+}
+#six button {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  padding: 5px 10px;
+}
+#six .br {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 400px;
+  margin: 20px 20px;
+}
+#six .br1 {
+  background: red;
+  color: white;
+}
+#six .btn1 {
+  background: transparent;
+}
+
+#seven {
+  text-align: center;
+}
+#seven .border {
+  border: 1px solid black;
+  width: 300px;
+  margin: 15px;
+}
+
+#eight {
+  text-align: center;
+}
+#eight .disp {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+#eight .disp form {
+  display: block;
+}
+#eight .mt {
+  margin-top: 20%;
+  padding: 0 450px 0 0;
+}
+#eight .mt1 {
+  padding: 0 450px 50px 0;
+}
+#eight .mt2 {
+  padding: 0 450px 0 0;
+}
+
+#nine {
+  background: red;
+  color: white;
+  text-align: center;
+}
+#nine i {
+  font-size: 32px;
+}
+#nine .ul {
+  margin-left: 39%;
+  margin-top: 25px;
+}
+#nine .ul ul {
+  display: flex;
+  list-style: none;
+}
+#nine .ul ul a {
+  color: white;
+  margin-left: 50%;
+  text-align: center;
+  margin-right: 20px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
